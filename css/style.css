@@ -1,0 +1,35 @@
+
+/* background from sliderrevolution.com */
+body {
+  background: white;
+  background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 0),
+    linear-gradient(rgba(200,0,0,.5) 50%, transparent 0);
+  background-size: 100px 100px;
+}
+
+.margin {
+	margin-left: 30px;
+	margin-right: 540px;
+	background-color: #ffd6cc;
+}
+
+.logo {
+	position: absolute;
+  top: 10px;
+  right: 80px;
+}
+
+.slice1 {
+	position: absolute;
+  top: 300px;
+  right: 80px;
+}
+
+.slice2 {
+	position: absolute;
+  top: 800px;
+  right: 80px;
+}
+.zoom {
+	zoom: 1.1;
+}

@@ -1,1 +1,1 @@
-# Assign-04-HTML-NameOfProgram
+[![GitHub's Super Linter](https://github.com/CarolynWP/Assign-04-HTML-BreadBakery/actions/workflows/main.yml/badge.svg)](https://github.com/CarolynWP/Assign-04-HTML-BreadBakery/actions)
