@@ -63,13 +63,13 @@
 			
 			<!-- drop-down menu for toppings -->
 			<form action="javascript:happySlices()">
-					<label for="day"><h6>Your choice of topping:</h6></label>
-					<select name="day" id="day">
+					<label for="toppings"><h6>Your choice of topping:</h6></label>
+					<select name="toppings" id="toppings">
 						<option value="butter">Butter</option>
 						<option value="avocado">Avocado</option>
 						<option value="jam">Jam</option>
-						<option value="Sprinkles">Sprinkles</option>
-						<option value="Garlic">Garlic and Cheese</option>
+						<option value="sprinkles">Sprinkles</option>
+						<option value="garlic">Garlic and Cheese</option>
 					</select>
 				</form>
 				<br>
@@ -79,26 +79,28 @@
 				<h6>Would you like a glass of water with that?</h6>
 
 				<label for="happySlices()">
-  				<input type="radio" id="yes" name="yes" value="1">
+  				<input type="radio" id="yes" name="yes" value="yes">
   				<span class="mdl-radio__label">Yes please</span>
 				</label>
 				
 				<label for="happySlices()">
-  				<input type="radio" id="no" name="yes" value="0">
+  				<input type="radio" id="no" name="yes" value="no">
   				<span class="mdl-radio__label">No thank you</span>
 				</label>
 				<br>
 				<br>
 				<br>
 				<br>
+				
 				<!-- Submit Button -->
 					<button onclick="happySlices()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
 					  Submit Order
 					</button>
 				<br>
 				<br>
-				<!-- display answer -->
-				<h6><div id="answer"></h6>
+				
+				<!-- display order -->
+				<h6><div id="order"></h6>
 			</div>
 		</div>
 	</body>
